@@ -1,0 +1,15 @@
+.cart button{
+    width: 25%;
+    border: 0 solid #95A0A7;
+    background: #ffd3af;
+    border-radius: 6px;
+    padding: 12px;
+    transition: all 0.3s ease;
+
+}
+
+.cart button:hover{
+    color: white;
+    background: rgba(250, 70, 70, 0.953);
+    
+}

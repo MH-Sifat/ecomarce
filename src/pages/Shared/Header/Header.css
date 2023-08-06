@@ -1,0 +1,33 @@
+header {
+    background: #1C2B35;
+    height: 80px;
+    flex-shrink: 0;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 0 0 32px;
+    color: #FFF;
+    font-size: 17px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+    transition: all 0.3s ease
+}
+nav ul li a:hover{
+    color: #fd9f11;
+
+}
