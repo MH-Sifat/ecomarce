@@ -1,0 +1,102 @@
+.maindiv{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.Logbackground{
+    border-radius: 8px;
+    background: #FFE0B3;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    margin: 10px 0 0 485px;
+}
+.signup{
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    background: #FFF;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    margin: 0 0 0 500px;
+    padding: 50px;
+}
+
+.signup h2 {
+    color: #2A414F;
+    font-family: Lato;
+    font-size: 35px;
+    letter-spacing: 0.088px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.signup p{
+
+    font-family: Lato;
+    font-size: 17px;
+    letter-spacing: 0.026px;
+    color: #2A414F;
+    margin: 10px;
+}
+.signup input{
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    height: 55px;
+    flex-shrink: 0;
+    outline: none;
+    width: 415px;
+
+}
+
+.signup hr{
+    background: #95A0A7;
+    width: 145px;
+    height: 1px;
+    text-align: center;
+}
+.or{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+.or p{
+margin-top:-10px;
+}
+.signup p:nth-child(9){
+    text-align: center;
+    padding-bottom: 20px;
+}
+span{
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.038px;
+    color: #F90;
+    margin-left: 2px;
+}
+.signup button{
+    background: rgba(255, 153, 0, 0.30);
+    width: 415px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    font-family: Lato;
+    font-size: 21px;
+    letter-spacing: 0.032px;
+    color: #0E161A;
+    border: none;
+    margin-top: 30px
+}
+.signup button:nth-child(11){
+    background: #FFF;
+    border: 1px solid #95A0A7;width: 415px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #2A414F;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+    border-radius: 5px;
+}

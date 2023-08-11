@@ -1,0 +1,67 @@
+.main-div{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details-div > span{    
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.026px;
+    color: #F90;
+    display: inline-block;
+    margin: 0 50px 120px 0 ;
+}
+.details-div > h2{
+    color: #1C2B35;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    margin-bottom: 10px;
+}
+.details-div > p{
+    color: #2A414F;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.06px;
+margin-bottom: 10px
+}
+.shopnow{
+    border-radius: 4px;
+background: #F90;
+width: 203px;
+height: 56px;
+flex-shrink: 0;
+border: none;
+margin-top: 60px;
+font-size: 20px;
+}
+.background{
+    width: 451px;
+    flex-shrink: 0;
+    height: 633px;
+    border-radius: 8px;
+    background: #FFE0B3;
+    position: relative;
+    margin: 120px 50px 0 0;
+
+}
+.image-div{
+    flex-shrink: 0;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 2;
+    margin: 100px 0 0 15px;
+}
+
